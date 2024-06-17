@@ -57,46 +57,6 @@ footer {
 }
 
 
-/* Estilos específicos para cada página */
-
-/* Estilos para index.html (Home) */
-
-.main-content .btn {
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-}
-
-/* Estilos para gerencia.html (Página de Gerência) */
-
-.dashboard-card {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.dashboard-card h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-/* Estilos para dados-cliente.html (Página de Dados do Cliente) */
-
-.client-data {
-    margin-top: 20px;
-}
-
-.client-data h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-.client-data p {
-    font-size: 16px;
-}
-
-/* Estilos para cadastro.html (Página de Cadastro de Cliente) */
-
 form {
     max-width: 400px;
     margin: 20px auto;
@@ -135,12 +95,4 @@ form button {
 
 form button:hover {
     background-color: #0056b3;
-}
-
-/* Estilos para cadastro-sucesso.html (Página de Confirmação de Cadastro) */
-
-.main-content p {
-    font-size: 18px;
-    text-align: center;
-    margin-top: 20px;
 }
