@@ -25,17 +25,83 @@
         <h2>Dados do Cliente</h2>
        
         <div class="client-data">
-            <h3>Conta Corrente: 123456-7</h3>
-            <h3>Poupança: 987654-3</h3>
-            <h3>Cartão de Crédito: Visa Gold</h3>
-            <h3>Extrato de Transações:</h3>
-            <p>...</p>
+            <div class="container mt-5">
+                <h1 class="text-center">Dados do Cliente</h1>
+        
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Conta Corrente</h2>
+                        <p>Saldo: R$ 10,000.00</p>
+                    </div>
+                </div>
+        
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Poupança</h2>
+                        <p>Saldo: R$ 5,000.00</p>
+                    </div>
+                </div>
+        
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Cartão de Crédito</h2>
+                        <p>Limite disponível: R$ 2,000.00</p>
+                    </div>
+                </div>
+        
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h2 class="card-title">Extrato de Transações</h2>
+                        <ul>
+                            <li>Compra no Supermercado: R$ 200.00</li>
+                            <li>Pagamento de Conta: R$ 150.00</li>
+                            <li>Depósito: R$ 1,000.00</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <h2 class="text-center">Contratação de Serviços</h2>
+                <form class="mb-4">
+                    <div class="form-group">
+                        <label for="serviceType">Tipo de Serviço</label>
+                        <select class="form-control" id="serviceType">
+                            <option>Investimentos</option>
+                            <option>Empréstimos</option>
+                            <option>Financiamentos</option>
+                            <option>Previdência</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="serviceAmount">Valor</label>
+                        <input type="text" class="form-control" id="serviceAmount" placeholder="Digite o valor desejado">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Contratar</button>
+                </form>
+        
+                <h2 class="text-center">Realizar Transações</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="transactionType">Tipo de Transação</label>
+                        <select class="form-control" id="transactionType">
+                            <option>PIX</option>
+                            <option>Transferência</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="transactionAmount">Valor</label>
+                        <input type="text" class="form-control" id="transactionAmount" placeholder="Digite o valor desejado">
+                    </div>
+                    <div class="form-group">
+                        <label for="transactionRecipient">Destinatário</label>
+                        <input type="text" class="form-control" id="transactionRecipient"
+                            placeholder="Digite o destinatário">
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block">Realizar Transação</button>
+                </form>
+            </div>
         </div>
     </section>
-
-    <footer>
-        <p>&copy; 2024 BANCO RED. Todos os direitos reservados.</p>
-    </footer>
+    
 </body>
 
 </html>

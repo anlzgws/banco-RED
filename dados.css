@@ -1,4 +1,4 @@
-
+/* Estilos gerais para todas as páginas */
 
 body {
     font-family: Arial, sans-serif;
@@ -56,19 +56,88 @@ footer {
     width: 100%;
 }
 
+/* Estilos específicos para cada página */
 
+/* Estilos para dados-cliente.html (Página de Dados do Cliente) */
 
-.client-data {
-    margin-top: 20px;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
 }
 
-.client-data h3 {
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
     margin-bottom: 10px;
+}
+
+.card-body p {
     font-size: 18px;
 }
 
-.client-data p {
+.card-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-body ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     font-size: 16px;
 }
 
-
+form button:hover {
+    background-color: #0056b3;
+}
